@@ -10,7 +10,7 @@ body{
     font-family: 'Josefin Sans', sans-serif;
 }
 header{
-    background-image: url(/images/Rectangle\ 164.png);
+    background-image: url(images/Rectangle\ 164.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -29,7 +29,7 @@ nav.main-nav ul li a:hover{
     text-decoration: underline;
 }
 .head-main-image {
-    background: url(../images/bgCircle.png);
+    background: url(/images/bgCircle.png);
     background-repeat: no-repeat;
     text-align: -webkit-center;
     background-size: contain;
@@ -186,7 +186,7 @@ button.owl-prev span:hover {
 
 
 button.owl-next span {
-    background: url(./images/rightArrow.png);
+    background: url(/images/rightArrow.png);
     width: 60px;
     height: 60px;
     background-size: contain;
@@ -198,7 +198,7 @@ button.owl-next span {
     transform: translateY(-50%);
 }
 button.owl-prev span {
-    background: url(./images/leftArrow.png);
+    background: url(/images/leftArrow.png);
     width: 60px;
     height: 60px;
     background-size: contain;
@@ -364,7 +364,7 @@ span.compnyExp , p.exp-time {
     color: #000;
 }
 .work_with_img {
-    background-image: url(./images/letWorkImg.png);
+    background-image: url(/images/letWorkImg.png);
     height: 100%;
     background-size: contain;
     background-repeat: no-repeat;
