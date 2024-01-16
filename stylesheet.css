@@ -10,7 +10,7 @@ body{
     font-family: 'Josefin Sans', sans-serif;
 }
 header{
-    background-image: url(images/Rectangle\ 164.png);
+    background-image: url(images/Rectangle164.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -129,7 +129,7 @@ a.DownloadCV-btn:hover{
 }
 /* About */
 .about-model-img {
-    background: url(/images/Rectangle\ 214.png);
+    background: url(/images/Rectangle214.png);
     background-repeat: no-repeat;
     background-size: contain;
     text-align: center;
