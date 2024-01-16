@@ -55,7 +55,7 @@ nav.main-nav ul li a:hover{
     top: 35%;
     animation: float 3s infinite linear;
     right: 6%;
-}
+} 
 .post-sticker {
     border-radius: 6px;
     background: linear-gradient(90deg, #E2C6AF 4.24%, #B27E52 104.8%);
