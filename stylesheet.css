@@ -417,16 +417,19 @@ a.footer-social:hover {
 }
 
 .frm-sbmit-btn {
-    background: #fff;
-    color: #724220;
-    padding: 8px 20px;
+    background: #9f734e;
+    color: #ffffff;
+    position: relative;
+    padding: 10px 20px;
+    margin-right: 1rem;
     font-size: 18px;
-    border: solid;
-    border-radius: 5px;
+    border: none;
+    width: 50px;
+    border-radius: 50px;
     transition: all 0.3s;
 }
 .frm-sbmit-btn:hover{
-    transform: scale(1.1);
+    width: 20%;
 }
 
 
