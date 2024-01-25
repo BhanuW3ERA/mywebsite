@@ -8,7 +8,65 @@ body{
     background-color: #000000;
     color: #fff;
     font-family: 'Josefin Sans', sans-serif;
+
 }
+
+
+
+/* Day Light Switch */
+
+div#dayMode {
+    position: relative;
+    animation: pendulum 2s ease-in-out infinite;
+}
+.dayLight_main {
+    position: absolute;
+    right: 0;
+}
+div#dayMode::before {
+    content: "";
+    position: absolute;
+    background: #fff;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    right: 40px;
+    top: 71px;
+    z-index: 2;
+}
+div#dayMode::after {
+    content: "";
+    position: absolute;
+    width: 2px;
+    height: 103px;
+    background: #fff;
+    left: -50px;
+    top: -26px;
+}
+
+@keyframes pendulum {
+    0%, 100% {
+        transform: rotate(20deg);
+      }
+      50% {
+        transform: rotate(-20deg);
+      }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 header{
     background-image: url(images/Rectangle164.png);
     background-repeat: no-repeat;
